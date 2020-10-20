@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日付計算</title>
+    <link rel="stylesheet" href="style.css">
+     
+</head>
+<body>
+
+    <div class="container">
+        <h1>計算の基準となる日付を入力してください。</h1>
+        
+    <form action="cgi-bin/example.cgi" method="post">
+        
+        <input type="search" name="search" placeholder="20180101"><br>
+        <input type="submit" name="submit" value="計算実行">
+        <input type="submit" name="submit" value="新規登録  ">
+        
+    </form>
+    </div>  
+   
+    <div class="container">
+    <table>
+    <thead>
+    <tr>
+        <th>No</th>
+        <th>日付ID</th>
+        <th>日付名</th>
+        <th>計算結果</th>
+        <th>計算式(年月日)</th>
+        <th>編集</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    </tbody>
+    </table>
+    </div>
+    
+     </body>
+
+</html>

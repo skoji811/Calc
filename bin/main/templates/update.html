@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登録画面
+    </title>
+</head>
+<body>
+    <div class="container">
+        
+        <form th:action="@{/players}" th:method="post">
+          <div class="form-group">
+            <label class="control-label">日付ID</label>
+            <input class="form-control" type="text" name="name" />
+          </div>
+          <div class="form-group">
+            <label class="control-label">日付名</label>
+            <input class="form-control" type="text" name="age" />
+          </div>
+          <div class="form-group">
+            <label class="control-label">加減値（年）</label>
+            <input class="form-control" type="number" name="team" />
+          </div>
+          <div class="form-group">
+            <label class="control-label">加減値（月）</label>
+            <input class="form-control" type="number" name="position" />
+          </div>
+          <div class="form-group">
+            <label class="control-label">加減値（日）</label>
+            <input class="form-control" type="number" name="position" />
+          </div>
+         
+          <button class="btn btn-default" type="submit">更新</button>
+          <button class="btn btn-default" type="submit">戻る</button>
+        </form>
+       
+      </div> 
+</body>
+</html>
